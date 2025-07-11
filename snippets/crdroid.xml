@@ -36,6 +36,8 @@
   <project path="bootable/deprecated-ota" name="crdroidx/android_bootable_deprecated-ota" groups="pdk-cw" remote="crdroid" />
   <project path="bootable/recovery" name="crdroidx/android_bootable_recovery" groups="pdk" remote="crdroid" />
 
+  <project path="device/lineage/sepolicy" name="crdroidx/android_device_crdroid_sepolicy" remote="crdroid" />
+
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="crdroidx/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="16.0-legacy-um" />
 
   <project path="external/avb" name="crdroidx/android_external_avb" groups="pdk" remote="crdroid" />
