@@ -93,7 +93,7 @@
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
 
   <!-- CodeLinaro additions -->
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" />
+  <!--<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" />-->
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-22.2-legacy-um" />
   <!--<project path="device/qcom/sepolicy_vndr/legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-22.2-legacy-um" />-->
   <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" />
@@ -104,7 +104,7 @@
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" />
   <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,pakala-vendor" revision="lineage-23.0-caf" />
   <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-22.2-caf" />
-  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" >
+  <!--<project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" >-->
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
