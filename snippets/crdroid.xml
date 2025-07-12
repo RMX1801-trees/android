@@ -55,7 +55,6 @@
   <project path="frameworks/opt/telephony" name="crdroidx/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="frameworks/opt/timezonepicker" name="crdroidx/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
-  <project path="hardware/qcom-caf/common" name="crdroidx/android_hardware_qcom-caf_common" groups="qcom" remote="crdroid" >
   <project path="hardware/qcom-caf/sm8650/display" name="crdroidx/android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8650" />
   <project path="hardware/qcom-caf/sm8750/display/hal" name="crdroidx/android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8750" />
 
