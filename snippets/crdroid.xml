@@ -43,8 +43,8 @@
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidx/android_frameworks_av" groups="pdk,sysui-studio" remote="crdroid" />
-  <project path="frameworks/base" name="crdroidx/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
-  <project path="frameworks/libs/systemui" name="crdroidx/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
   <project path="frameworks/native" name="crdroidx/android_frameworks_native" groups="pdk" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidx/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="crdroid" />
 
@@ -60,11 +60,11 @@
 
   <project path="packages/apps/Backgrounds" name="crdroidandroid/android_packages_apps_Backgrounds" remote="crdroid" />
   <project path="packages/apps/ColumbusService" name="crdroidandroid/android_packages_apps_ColumbusService" remote="crdroid" />
-  <project path="packages/apps/crDroidSettings" name="crdroidx/android_packages_apps_crDroidSettings" remote="crdroid" />
+  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/DocumentsUI" name="crdroidx/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
-  <project path="packages/apps/Launcher3" name="crdroidx/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="crdroid" />
+  <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidx/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
