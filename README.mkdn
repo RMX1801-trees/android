@@ -36,7 +36,7 @@ $ mkdir crDroid
 $ cd crDroid
 
 # Install Repo in the created directory
-$ repo init -u https://github.com/crdroidx/android.git -b 16.0 --git-lfs --no-clone-bundle
+$ repo init -u https://github.com/RMX1801-trees/android.git -b 16.0 --git-lfs --no-clone-bundle
 ```
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
