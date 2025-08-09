@@ -13,8 +13,6 @@
            sync-j="4"
            revision="refs/heads/16.0" />
 
-  <remove-project name="android_device_qcom_sepolicy" />
-
   <!-- crDroid additions -->
   <project path="android" name="crdroidx/android" remote="crdroid" />
 
